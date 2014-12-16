@@ -59,7 +59,7 @@ These programs are based on some coal preparation and model knowledge, and read 
 
 程序选用了三种插值模型：线性插值、三点插值、拉格朗日插值模型。可在插值时，进行选择，
 如图：
-![interpolation](/example.png)
+![interpolation](/interpolation/example.png)
 
 ##线性回归分析
 利用最小二乘法,对现有数据进行分析。
