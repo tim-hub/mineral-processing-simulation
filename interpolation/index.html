@@ -1,0 +1,39 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <head>
+        <title>线性插值、三点插值、拉格朗日插值</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <p>灰分</p>
+        <textarea id ="ta1" rows="1"  ></textarea>
+        <p>浮物累积产率</p>
+        <textarea id ="ta2" rows="1"  ></textarea>
+        <p>平均密度</p>
+        <textarea id ="ta3" rows="1"  ></textarea>
+        <br />
+        <form>
+            <p>选定X，即选择自变量</p>
+            <select id="slt" >
+                <option value="灰分" >灰分</option>
+                <option value="浮物累积产率" >浮物累积产率</option>
+                <option value="平均密度" >平均密度</option>
+            </select>
+        </form>
+        <br />
+        <p>选择插值模拟方法</p>
+        <input type="button"  onclick="line();"   value="线性 "/>
+        <input type="button"  onclick="three();"   value="三点"/>
+        <input type="button"  onclick="lagrange();"   value="拉格朗日 "/>
+        <script type="text/javascript" src="chazhi.js"></script>
+        <br />
+        <div id="d">
+            
+        </div>
+    </body>
+</html>
